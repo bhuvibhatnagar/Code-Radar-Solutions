@@ -4,9 +4,9 @@ int main(){
     int firstInt;
     int secondInt;
     int thirdInt;
-    scanf("%d", &firstInt);
-    scanf("%d", &secondInt);
+    scanf("%d\t", &firstInt);
+    scanf("%d\t", &secondInt);
     scanf("%d", &thirdInt);
-    printf("%.2f",(firstInt + secondInt + thirdInt)/3);
+    printf("%d",firstInt + secondInt + thirdInt/3);
     return 0;
 }
