@@ -4,7 +4,7 @@ int main(){
     int firstInt;
     int secondInt;
     scanf("%d", &firstInt);
-    scanf("%d", secondInt);
-    printf("%d", firstInt + secondInt);
+    scanf("%d", &secondInt);
+    printf("sum: %d", firstInt + secondInt);
     return 0;
 }
