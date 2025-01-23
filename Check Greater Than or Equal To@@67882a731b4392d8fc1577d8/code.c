@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int a(){
+int main(){
     int a;
     int b;
     scanf("%d\t", &a);
