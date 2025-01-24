@@ -5,11 +5,8 @@ int main(){
     int b;
     scanf("%d\t", &a);
     scanf("%d", &b);
-    if(a<0 || b<0){
+    if(a*b<0){
         printf("True");
-    }
-    else if(a == 0 || b == 0){
-        printf("False");
     }
     else{
         printf("False");
