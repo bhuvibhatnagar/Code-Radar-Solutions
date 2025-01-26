@@ -4,7 +4,7 @@ int main(){
     int side1, side2, side3;
     scanf("%d\t", &side1);
     scanf("%d\t", &side2);
-    scanf("%d", side3);
+    scanf("%d", &side3);
     int sq1 = side1*side1;
     int sq2 = side2*side2;
     int sq3 = side3*side3;
