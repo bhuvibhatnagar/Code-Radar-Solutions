@@ -5,10 +5,10 @@ int main(){
     scanf("%d\n", &a);
     scanf("%d\n", &b);
     scanf("%d", &c);
-    if(a>+ (b||c)){
+    if(a>= (b||c)){
         printf("%d",a);
     }
-    else if(b>(a||c)){
+    else if(b>=(a||c)){
         printf("%d", b);
     }
     else{
