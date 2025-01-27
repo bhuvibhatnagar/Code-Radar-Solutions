@@ -2,7 +2,7 @@
 
 int main(){
     char my;
-    scanf("%c", &a);
+    scanf("%c", &my);
     if(my>='d' && 'f'<=my<='h' && 'j'<=my<='n' && 'p'<=my<='t' && 'v'<=my<='z'){
         printf("Consonant");
     }
