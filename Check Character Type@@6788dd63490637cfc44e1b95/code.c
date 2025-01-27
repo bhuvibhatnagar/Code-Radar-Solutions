@@ -9,7 +9,7 @@ int main(){
     else if(my == 'a','e','i','o','u'){
         printf("Vowel");
     }
-    else if(my>=0){
+    else if(-9999<=my<=9999){
         printf("Digit");
     }
     else{
