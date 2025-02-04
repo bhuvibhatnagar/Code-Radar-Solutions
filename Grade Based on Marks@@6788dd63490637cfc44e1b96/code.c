@@ -10,7 +10,7 @@ int main(){
         printf("B");
     }
     else if(marks>=70){
-        print("C");
+        printf("C");
     }
     else if(marks>=60){
         printf("D");
