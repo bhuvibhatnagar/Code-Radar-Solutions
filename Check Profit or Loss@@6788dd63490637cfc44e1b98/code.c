@@ -8,8 +8,11 @@ int main(){
     if(cost<selling){
         printf("Profit");
     }
-    else{
+    else if(Selling<cost){
         printf("Loss");
+    }
+    else{
+        printf("No Profit No Loss");
     }
     return 0;
 }
