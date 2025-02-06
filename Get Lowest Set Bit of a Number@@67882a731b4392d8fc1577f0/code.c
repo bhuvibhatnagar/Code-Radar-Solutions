@@ -14,7 +14,7 @@ int findlow(int num){
 }
 int main(){
     int num;
-    scanf("%d", 7num);
+    scanf("%d", &num);
     int pos = findlow(num);
     iF(pos==-1){
         printf("No\n");
