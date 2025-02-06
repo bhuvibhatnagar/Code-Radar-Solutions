@@ -5,7 +5,8 @@ int setbit(int num,int n){
 }
 int main(){
     int num,n;
-    scanf("%d %d", &num,&n);
+    scanf("%d",&num);
+    scanf("%d", &n);
     num = setbit(num,n);
     printf("%d\n",n,num);
     return 0;
