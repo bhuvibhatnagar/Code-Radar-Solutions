@@ -7,6 +7,6 @@ int main(){
     int num,n;
     scanf("%d %d", &num,&n);
     int result = togglebit(num,n);
-    printf("%d", result);
+    printf("%d\n", result);
     return 0;
 }
