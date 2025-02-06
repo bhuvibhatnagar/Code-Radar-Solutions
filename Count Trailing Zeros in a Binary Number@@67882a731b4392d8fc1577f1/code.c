@@ -15,6 +15,6 @@ int main(){
     int num;
     scanf("%d", &num);
     int result = counttrail(num);
-    printf("%d\n", reuslt);
+    printf("%d\n", result);
     return 0;
 }
