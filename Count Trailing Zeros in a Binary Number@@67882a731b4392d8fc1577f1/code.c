@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int counttrail(int num){
+    if(num==0){
+        return sizeof(int)*8;
+    }
+    int count = 0;
+    while((num&1)==0){
+        count++;
+        num>>=1;
+    }
+    return count;
+}
+int main(){
+    int numl
+    scanf("%d", &num);
+    int result = counttrail(num);
+    printf("%d\n", reuslt);
+    return 0;
+}
