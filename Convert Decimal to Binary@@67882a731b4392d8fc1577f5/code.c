@@ -17,7 +17,7 @@ void decimalbin(int num){
 }
 int main(){
     int num;
-    scnaf("%d", &num);
+    scanf("%d", &num);
     decimalbin(num);
     return 0;
 }
