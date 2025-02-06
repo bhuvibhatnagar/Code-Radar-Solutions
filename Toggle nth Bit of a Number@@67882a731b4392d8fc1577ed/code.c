@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int togglebit(int num.int n){
+int togglebit(int num,int n){
     return num ^ (1<<n);
 }
 int main(){
