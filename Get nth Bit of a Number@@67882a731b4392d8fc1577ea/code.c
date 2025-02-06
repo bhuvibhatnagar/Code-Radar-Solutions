@@ -3,11 +3,7 @@
 int main(){
     int num,n;
     scanf("%d %d",&n,&num);
-    if(n>0 || n<31){
-        printf("1");
-    }
-    else{
-        printf("0");
-    }
+    int bitvalue = (num>>n) & 1;
+    printf("%d",bitvalue);
     return 0;
 }
