@@ -12,7 +12,7 @@ int counttrail(int num){
     return count;
 }
 int main(){
-    int numl
+    int num;
     scanf("%d", &num);
     int result = counttrail(num);
     printf("%d\n", reuslt);
