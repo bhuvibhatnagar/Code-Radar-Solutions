@@ -2,7 +2,7 @@
 
 int main(){
     int num,n;
-    scanf("%d %d",&n,&num);
+    scanf("%d %d",&num,&n);
     int bitvalue = (num>>n) & 1;
     printf("%d",bitvalue);
     return 0;
